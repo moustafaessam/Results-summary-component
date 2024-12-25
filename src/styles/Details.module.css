@@ -1,0 +1,36 @@
+.summaryBox {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 3rem;
+  padding-left: 0;
+  width: 50%;
+}
+
+.detailsSummary {
+  font-size: 2.5rem;
+  color: var(--dark-gray-blue);
+}
+
+.continueButton {
+  text-align: center;
+  width: 100%;
+  padding: 1.92rem 0;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.9rem;
+  font-weight: 500;
+  background-color: hsl(224deg, 30%, 27%);
+  border-radius: 3.2rem;
+  cursor: pointer;
+}
+
+.continueButton:hover {
+  background: linear-gradient(hsl(252deg, 100%, 67%), hsl(241deg, 81%, 54%));
+}
+
+@media (max-width: 768px) {
+  .summaryBox {
+    width: 100%;
+    padding-left: 3rem;
+  }
+}

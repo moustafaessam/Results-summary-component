@@ -1,0 +1,68 @@
+.resultMainBox {
+  background: linear-gradient(
+    var(--light-slate-blue-bgC),
+    var(--light-royal-blue-bgC)
+  );
+  border-radius: var(--main-box-radius);
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+  gap: 4rem;
+}
+
+.resultMainHeader {
+  font-size: 2.3rem;
+  color: hsla(222deg, 100%, 96%, 0.68);
+  font-weight: 400;
+}
+
+.circle {
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    var(--violet-blue-circle),
+    var(--persian-blue-circle)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20.4rem;
+  height: 24.4rem;
+}
+
+.circleHeader {
+  font-size: 8.48rem;
+  font-weight: 800;
+  color: var(--white);
+}
+
+.circleContent {
+  font-size: 1.7rem;
+  color: var(--light-lavender);
+  margin-top: -10px;
+}
+
+.resultMessage {
+  width: 70%;
+}
+
+.resultHeader {
+  text-align: center;
+  color: var(--white);
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+.resultFooter {
+  text-align: center;
+  font-size: 1.8rem;
+  color: var(--light-lavender);
+}
+
+@media (max-width: 768px) {
+  .resultMainBox {
+    border-radius: 0 0 var(--main-box-radius) var(--main-box-radius);
+  }
+}

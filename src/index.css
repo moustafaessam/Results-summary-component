@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("/fonts//HankenGrotesk-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+  --light-red: hsl(0, 100%, 67%);
+  --orangey-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+  --white: hsl(0, 0%, 100%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --dark-gray-blue: hsl(224, 30%, 27%);
+  /* Gradients */
+  --light-slate-blue-bgC: hsl(252, 100%, 67%);
+  --light-royal-blue-bgC: hsl(241, 81%, 54%);
+  --violet-blue-circle: hsla(256, 72%, 46%, 1);
+  --persian-blue-circle: hsla(241, 72%, 46%, 0);
+  /* Font Size */
+  --paragraph-font-size: 1.8rem;
+  /* Font Weights */
+  --little-bold: 500;
+  --bold: 700;
+  --high-bold: 800;
+  /* Border-radius */
+  --main-box-radius: 3rem;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: var(--paragraph-font-size);
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  #root {
+    height: auto;
+  }
+}

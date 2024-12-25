@@ -1,0 +1,20 @@
+.detailBox {
+  height: 6.4rem;
+  margin-bottom: 1.6rem;
+  padding: 2rem;
+  border-radius: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.detailIcon {
+  margin-right: 0.8rem;
+}
+.blackValue {
+  color: black;
+  font-weight: 700;
+}
+.greyValue {
+  color: hsla(241deg, 100%, 89%, 0.85);
+}
